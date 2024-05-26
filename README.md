@@ -4,7 +4,7 @@
 
 Este conjunto de dados contém gravações de EEG de indivíduos antes e durante a realização de tarefas lógicas e aritméticas. Os sinais de EEG foram registrados usando o sistema Neurocom EEG com 23 canais. Eletrodos de cloreto de prata foram colocados no couro cabeludo de acordo com o sistema internacional 10-20, conforme mostrado na figura abaixo.
 
-![Distribuição dos Eletrodos](Images/Distribuição%20de%20eletrodos.png)
+<img src="Images/Distribuição%20de%20eletrodos.png" alt="Distribuição dos Eletrodos" width="500"/>
 *Figura 1: Distribuição dos eletrodos no sistema 10-20*
 
 ## Descrição do Conjunto de Dados
@@ -15,7 +15,7 @@ O conjunto de dados inclui gravações de 35 sujeitos, com cada sujeito tendo do
 
 Uma amostra dos dados de EEG é mostrada abaixo:
 
-![Dados de EEG Brutos](Images/SinaPuro.png)
+<img src="Images/SinaPuro.png" alt="Dados de EEG Brutos" width="500"/>
 *Figura 2: Dados de EEG brutos do sujeito 0*
 
 ### Processamento de Sinal
@@ -25,22 +25,22 @@ A análise inicial dos sinais de EEG brutos indicou ruído significativo em freq
 #### Transformada Rápida de Fourier (FFT) e Espectro de Magnitude
 
 - **Antes da Filtragem:**
-  ![FFT Antes da Filtragem](Images/FFT_Puro.png)
+  <img src="Images/FFT_Puro.png" alt="FFT Antes da Filtragem" width="400"/>
   *Figura 3: FFT do canal Fp1 do sujeito 0 (dados brutos)*
 
-  ![Espectro de Magnitude Antes da Filtragem](Images/Magnitude_Puro.png)
+  <img src="Images/Magnitude_Puro.png" alt="Espectro de Magnitude Antes da Filtragem" width="400"/>
   *Figura 4: Espectro de magnitude do canal Fp1 do sujeito 0 (dados brutos)*
 
 - **Após a Filtragem:**
-  ![FFT Após a Filtragem](Images/FFT_Filtro.png)
+  <img src="Images/FFT_Filtro.png" alt="FFT Após a Filtragem" width="400"/>
   *Figura 5: FFT do canal Fp1 do sujeito 0 (dados filtrados)*
 
-  ![Espectro de Magnitude Após a Filtragem](Images/Magnitude_Filtro.png)
+  <img src="Images/Magnitude_Filtro.png" alt="Espectro de Magnitude Após a Filtragem" width="400"/>
   *Figura 6: Espectro de magnitude do canal Fp1 do sujeito 0 (dados filtrados)*
 
 Após a filtragem, os dados de EEG ficaram significativamente mais limpos, conforme ilustrado abaixo:
 
-![Dados de EEG Filtrados](Images/SinaFltrado.png)
+<img src="Images/SinaFltrado.png" alt="Dados de EEG Filtrados" width="500"/>
 *Figura 7: Dados de EEG do sujeito 0 após a filtragem*
 
 ## Pré-processamento
