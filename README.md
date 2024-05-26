@@ -25,17 +25,17 @@ A análise inicial dos sinais de EEG brutos indicou ruído significativo em freq
 #### Transformada Rápida de Fourier (FFT) e Espectro de Magnitude
 
 - **Antes da Filtragem:**
-  ![FFT Antes da Filtragem](Images/FFT_puro.png)
+  ![FFT Antes da Filtragem](Images/FFT_Puro.png)
   *Figura 3: FFT do canal Fp1 do sujeito 0 (dados brutos)*
 
-  ![Espectro de Magnitude Antes da Filtragem](Images/Magnitude_puro.png)
+  ![Espectro de Magnitude Antes da Filtragem](Images/Magnitude_Puro.png)
   *Figura 4: Espectro de magnitude do canal Fp1 do sujeito 0 (dados brutos)*
 
 - **Após a Filtragem:**
-  ![FFT Após a Filtragem](Images/FFT_filtro.png)
+  ![FFT Após a Filtragem](Images/FFT_Filtro.png)
   *Figura 5: FFT do canal Fp1 do sujeito 0 (dados filtrados)*
 
-  ![Espectro de Magnitude Após a Filtragem](Images/Magnitude_filtro.png)
+  ![Espectro de Magnitude Após a Filtragem](Images/Magnitude_Filtro.png)
   *Figura 6: Espectro de magnitude do canal Fp1 do sujeito 0 (dados filtrados)*
 
 Após a filtragem, os dados de EEG ficaram significativamente mais limpos, conforme ilustrado abaixo:
